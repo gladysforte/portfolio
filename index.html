@@ -1,285 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Gladys Forte - Software Engineer</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
-    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+  </head>
+  <body>
     <div class="d-flex">
+      <!-- SideBar -->
 
-        <!-- SideBar -->
+      <div class="p-2 bd-highlight sidebar">
+        <div class="logo mt-5 mb-5">
+          <h1>Code</h1>
+        </div>
 
-            <div class="p-2 bd-highlight sidebar">
+        <div class="menu mb-4">
+          <ul class="box">
+            <a href="#home" active
+              ><li>
+                <span><i class="fa fa-home"></i></span>Home
+              </li></a
+            >
+            <a href="#about"
+              ><li>
+                <span><i class="fa fa-user"></i></span>About
+              </li></a
+            >
+            <a href="#project"
+              ><li>
+                <span><i class="fa fa-briefcase"></i></span>Projects
+              </li></a
+            >
+            <a href="#contact"
+              ><li>
+                <span><i class="fa fa-comment"></i></span>Contact
+              </li></a
+            >
+          </ul>
+        </div>
 
-                
+        <div class="footer">&copy; 2020 GVF</div>
+      </div>
 
-                <div class="logo mt-5">
-                    <h1>Code</h1>
+      <!-- SideBar End -->
+
+      <!-- Main Content -->
+
+      <div class="flex-grow-1 bd-highlight main-content">
+        <!-- Home -->
+
+        <div class="home" id="home">
+          <div class="center-logo">
+            <img src="./assets/images/home/profile.png" class="picture" />
+            <h3 class="gvf mt-3">Gladys Forte</h3>
+            <p class="font-weight-bold">I'm a software engineer</p>
+            <a href="https://github.com/gladysforte" target="_blank"
+              ><span class="dot btn m-1"><i class="fa fa-github"></i></span
+            ></a>
+            <a href="https://www.linkedin.com/in/gladysforte/" target="_blank"
+              ><span class="dot btn m-1"><i class="fa fa-linkedin"></i></span
+            ></a>
+            <a href="https://www.facebook.com/gladysvforte" target="_blank"
+              ><span class="dot btn m-1"><i class="fa fa-facebook"></i></span
+            ></a>
+            <a href="" target="_blank"
+              ><span class="dot btn m-1"><i class="fa fa-skype"></i></span
+            ></a>
+          </div>
+        </div>
+
+        <!-- Home End -->
+
+        <!-- About  -->
+
+        <div class="container about" id="about">
+          <h1 class="font-weight-bold mt-2 mb-5 pt-5 double-underline">
+            About Me
+          </h1>
+          <div class="m-3">
+            <h3>
+              I'm Gladys Forte and
+              <span style="color: #006494">Software Engineer</span>
+            </h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+              velit quo itaque ducimus! Dignissimos, tempora consequatur ratione
+              nobis, adipisci ullam cumque maiores rem aperiam quos voluptatem
+              dolorem, expedita sed impedit.
+            </p>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-5 basic-info">
+                <ul>
+                  <li>
+                    <strong class="mr-1">Degree :</strong>Bachelor of Science in
+                    Information Technology
+                  </li>
+                  <li>
+                    <strong class="mr-1">City :</strong>Caloocan City,
+                    Philippines
+                  </li>
+                  <li>
+                    <strong class="mr-1">Email :</strong>gfortejobs93@gmail.com
+                  </li>
+                  <li>
+                    <strong class="mr-1">Contact :</strong>(+63) 9167121137
+                  </li>
+                </ul>
+
+                <button class="btn btn-primary mt-3">
+                  <a href="./assets/cv/GladysForte_CV_2020.pdf" download>
+                    <span><i class="fa fa-download mr-2"></i></span>Download CV
+                  </a>
+                </button>
+              </div>
+
+              <div class="col-7">
+                Skills
+                <!-- Data Skills -->
+                <div class="row">
+                  Data Skills
+                  <span>Excel</span>
+                  <span>VBA</span>
+                  <span>Charts</span>
                 </div>
+                <!-- Data Skills -->
+                <!-- SE Skills -->
+                <div class="row">
+                  <h4>
+                    Languages, libraries, frameworks and tools that I use when
+                    creating a website/applications.
+                  </h4>
 
-                <div class="menu mb-4">
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/html5.svg"
+                  /></span>
 
-                    <ul class="box">
-                        
-                        <a href="#home"><li><span><i class="fa fa-home"></i></span>Home</li></a>
-                        <a href="#about"><li><span><i class="fa fa-user"></i></span>About</li></a>
-                        <a href="#project"><li><span><i class="fa fa-briefcase"></i></span>Projects</li></a>
-                        <a href="#contact"><li><span><i class="fa fa-comment"></i></span>Contact</li></a>
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/css.svg"
+                  /></span>
 
-                        <a href="./assets/cv/GladysForte_CV_2020.pdf" download><li><span><i class="fa fa-download"></i></span>Download CV</li></a>
-                    </ul>
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/bootstrap.svg"
+                  /></span>
 
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/js.svg"
+                  /></span>
+
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/python.svg"
+                  /></span>
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/django.svg"
+                  /></span>
+
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/php.svg"
+                  /></span>
+
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/laravel.svg"
+                  /></span>
+
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/mysql.svg"
+                  /></span>
+
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/docker.svg"
+                  /></span>
+
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/visual-studio.svg"
+                  /></span>
+
+                  <span
+                    ><img
+                      class="svg"
+                      src="./assets/images/about/languages/git.svg"
+                  /></span>
                 </div>
-
-
-                <div class="footer">
-                    &copy; 2020 GVF
-                </div>
-
+                <!-- SE Skills -->
+              </div>
             </div>
 
-        <!-- SideBar End -->
+            <!-- Educ and Exp -->
 
-        <!-- Main Content -->
+            <div class="row mt-5">
+              <!-- Education -->
+              <div class="col-6">
+                <h5>Education</h5>
+                <ul class="timeline">
+                  <li>
+                    <p>
+                      Zuitt Coding Bootcamp
+                      <span class="float-right">May 2018 - Nov 2018</span>
+                    </p>
 
-            <div class="p-2 flex-grow-1 bd-highlight main-content">
+                    <p>Full Stack Web Development Course</p>
+                  </li>
+                  <li>
+                    <a href="#">21 000 Job Seekers</a>
+                    <a href="#" class="float-right">4 March, 2014</a>
+                    <p>
+                      Curabitur purus sem, malesuada eu luctus eget, suscipit
+                      sed turpis. Nam pellentesque felis vitae justo accumsan,
+                      sed semper nisi sollicitudin...
+                    </p>
+                  </li>
+                  <li>
+                    <a href="#">Awesome Employers</a>
+                    <a href="#" class="float-right">1 April, 2014</a>
+                    <p>
+                      Fusce ullamcorper ligula sit amet quam accumsan aliquet.
+                      Sed nulla odio, tincidunt vitae nunc vitae, mollis
+                      pharetra velit. Sed nec tempor nibh...
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <!-- Education -->
 
-                <!-- Home -->
-
-                <div class="home" id="home">
-
-                    
-                    <div class="center-logo">
-
-                        <!-- <span class="picture"></span> -->
-                        <img src="./assets/images/home/profile.jpg" class="picture">
-                        <br>
-                        <h3 class="gvf">Gladys Forte</h3>
-                        <p>I'm a software engineer</p>
-                        <br>
-                        <span class="dot"><i class="fa fa-github"></i></span>
-                        <span class="dot"><i class="fa fa-linkedin"></i></span>
-                        <span class="dot"><i class="fa fa-facebook"></i></span>
-                        <span class="dot"><i class="fa fa-skype"></i></span>
-                        
-                    </div>
-
-                </div>
-
-                <!-- Home End -->
-
-                <!-- About  -->
-
-                <div class="about" id="about">
-
-                    <h1>About</h1>
-
-                </div>
-
-                <!-- About End -->
-
-
-                <!-- Projects -->
-                
-                <div class="project" id="project">
-
-                    <h1>Projects</h1>
-
-                    <div class="container">
-
-                        <div class="row">
-
-                            <div class="col-6">
-
-                                <div class="card">
-                                    <img class="card-img-top imgresize" src="./assets/images/projects/InsightsTool.gif" alt="Card image cap">
-                                    <div class="card-body">
-                                      <p class="card-text">Insights Tool</p>
-                                    
-                                      <span class="badge badge-info">Excel</span>
-                                      <span class="badge badge-info">VBA</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6">
-
-                                <div class="card">
-                                    <img class="card-img-top imgresize" src="./assets/images/projects/NeopolitanBrittany.gif" alt="Card image cap">
-                                    <div class="card-body">
-                                      <p class="card-text">Neopolitan Brittany Events Place
-                                        <a href="https://gladysforte.github.io/csp1-neopolitan_britanny/index.html" target="_blank">
-                                            <span class="dot"><i class="fa fa-link"></i></span></a>
-                                      </p>
-                                        
-                                      <span class="badge badge-info">HTML</span>
-                                      <span class="badge badge-info">CSS</span>
-                                      <span class="badge badge-info">Bootstrap</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 mt-5">
-
-                                <div class="card">
-                                    <img class="card-img-top" src="./assets/images/projects/VitaShop.gif" alt="Card image cap">
-                                    <div class="card-body">
-                                      <p class="card-text">Vita Shop</p>
-                                        
-                                      <span class="badge badge-info">PHP</span>
-                                      <span class="badge badge-info">MySQL</span>
-                                      <span class="badge badge-info">CSS</span>
-                                      <span class="badge badge-info">Bootstrap</span>
-                                      <span class="badge badge-info">Javascript</span>
-                                      <span class="badge badge-info">JQuery</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 mt-5">
-
-                                <div class="card">
-                                    <img class="card-img-top" src="./assets/images/projects/vote.gif" alt="Card image cap">
-                                    <div class="card-body">
-                                      <p class="card-text">Vote Up</p>
-                                        
-                                      <span class="badge badge-info">Laravel</span>
-                                      <span class="badge badge-info">MySQL</span>
-                                      <span class="badge badge-info">JQuery</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 mt-5">
-
-                                <div class="card">
-                                    <img class="card-img-top" src="./assets/images/projects/chat.gif" alt="Card image cap">
-                                    <div class="card-body">
-                                      <p class="card-text">Chatter Box</p>
-                                        
-                                      <span class="badge badge-info">Django Rest API</span>
-                                      <span class="badge badge-info">MySQL</span>
-                                      <span class="badge badge-info">Nuxt JS</span>
-                                      <span class="badge badge-info">Vuetify</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 mt-5">
-
-                                <div class="card">
-                                    <img class="card-img-top" src="./assets/images/projects/clouds.gif" alt="Card image cap">
-                                    <div class="card-body">
-                                      <p class="card-text">Data to Word Clouds</p>
-                                        
-                                      <span class="badge badge-info">Python</span>
-                                      <span class="badge badge-info">Flask</span>
-                                      <span class="badge badge-info">HTML</span>
-                                      <span class="badge badge-info">CSS</span>
-                                      <span class="badge badge-info">JQuery</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            
-                            <div class="col-6 mt-5">
-
-                                <div class="card">
-                                    <img class="card-img-top" src="./assets/images/projects/bible.gif" alt="Card image cap">
-                                    <div class="card-body">
-                                      <p class="card-text">Bible Search Engine</p>
-                                        
-                                      <span class="badge badge-info">React JS</span>
-                                      <span class="badge badge-info">Google API</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 mt-5">
-
-                                <div class="card">
-                                    <img class="card-img-top" src="./assets/images/projects/qrcode.gif" alt="Card image cap">
-                                    <div class="card-body">
-                                      <p class="card-text">QR Code Generator</p>
-                                        
-                                      <span class="badge badge-info">Python</span>
-                                      <span class="badge badge-info">Flask</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Projects End -->
-                
-                <!-- Contact -->
-
-                <div class="contact" id="contact">
-
-                    <h1>Contact</h1>
-
-                    <form>
-
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text" id="basic-addon1">Full Name</span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Full Name" aria-label="Username" aria-describedby="basic-addon1">
-                        </div>
-
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text" id="basic-addon1">Email</span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Your email" aria-label="Username" aria-describedby="basic-addon1">
-                        </div>
-
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text">Message</span>
-                            </div>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
-                        </div>
-
-                        <button type="button" class="btn btn-info mt-5">Send</button>
-                    </form>
-
-                </div>
-
-                <!-- Contact End -->
-
+              <!-- Experience -->
+              <!-- Experience -->
             </div>
+            <!-- Educ and Exp -->
+          </div>
+        </div>
 
-        <!-- Main Content End -->
+        <!-- About End -->
 
+        <!-- Projects -->
+
+        <div class="project container" id="project">
+          <h1 class="font-weight-bold mt-2 mb-5 pt-5 double-underline">
+            Projects
+          </h1>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <div class="card">
+                  <img
+                    class="card-img-top imgresize"
+                    src="./assets/images/projects/InsightsTool.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Insights Tool</p>
+
+                    <span class="badge badge-info">Excel</span>
+                    <span class="badge badge-info">VBA</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="card">
+                  <img
+                    class="card-img-top imgresize"
+                    src="./assets/images/projects/NeopolitanBrittany.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Neopolitan Brittany Events Place
+                      <a
+                        href="https://gladysforte.github.io/csp1-neopolitan_britanny/index.html"
+                        target="_blank"
+                      >
+                        <span class="dot"><i class="fa fa-link"></i></span
+                      ></a>
+                    </p>
+
+                    <span class="badge badge-info">HTML</span>
+                    <span class="badge badge-info">CSS</span>
+                    <span class="badge badge-info">Bootstrap</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 mt-5">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/images/projects/VitaShop.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Vita Shop</p>
+
+                    <span class="badge badge-info">PHP</span>
+                    <span class="badge badge-info">MySQL</span>
+                    <span class="badge badge-info">CSS</span>
+                    <span class="badge badge-info">Bootstrap</span>
+                    <span class="badge badge-info">Javascript</span>
+                    <span class="badge badge-info">JQuery</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 mt-5">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/images/projects/vote.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Vote Up</p>
+
+                    <span class="badge badge-info">Laravel</span>
+                    <span class="badge badge-info">MySQL</span>
+                    <span class="badge badge-info">JQuery</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 mt-5">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/images/projects/chat.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Chatter Box</p>
+
+                    <span class="badge badge-info">Django Rest API</span>
+                    <span class="badge badge-info">MySQL</span>
+                    <span class="badge badge-info">Nuxt JS</span>
+                    <span class="badge badge-info">Vuetify</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 mt-5">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/images/projects/clouds.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Data to Word Clouds</p>
+
+                    <span class="badge badge-info">Python</span>
+                    <span class="badge badge-info">Flask</span>
+                    <span class="badge badge-info">HTML</span>
+                    <span class="badge badge-info">CSS</span>
+                    <span class="badge badge-info">JQuery</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 mt-5">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/images/projects/bible.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Bible Search Engine</p>
+
+                    <span class="badge badge-info">React JS</span>
+                    <span class="badge badge-info">Google API</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 mt-5">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="./assets/images/projects/qrcode.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">QR Code Generator</p>
+
+                    <span class="badge badge-info">Python</span>
+                    <span class="badge badge-info">Flask</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects End -->
+
+        <!-- Contact -->
+
+        <div class="contact container" id="contact">
+          <h1 class="font-weight-bold mt-2 mb-5 pt-5 double-underline">
+            Contact
+          </h1>
+
+          <form class="container">
+            <div class="row">
+              <div class="col-6">
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="*Full Name"
+                  />
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"
+                      >Email</span
+                    >
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your email"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"
+                      >Subject</span
+                    >
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your subject"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+
+                <button type="button" class="btn btn-primary mt-5 float-right">
+                  Send
+                </button>
+              </div>
+
+              <div class="col-6">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Message</span>
+                  </div>
+                  <textarea
+                    class="form-control"
+                    aria-label="With textarea"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact End -->
+      </div>
+
+      <!-- Main Content End -->
     </div>
 
-
-<script src="./assets/js/script.js"></script>
-
-
-</body>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
