@@ -31,6 +31,7 @@
     />
 
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/hello.css" type="text/css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -39,7 +40,12 @@
     <div class="d-flex">
       <!-- SideBar -->
 
-      <div class="p-2 bd-highlight sidebar">
+      <!-- <div class="p-2 bd-highlight sidebar">
+
+        <a class="s-sidebar__trigger" href="#0">
+          <i class="fa fa-bars"></i>
+        </a>
+
         <div class="logo mt-5 mb-5">
           <img style="width: 40%;" src="./assets/images/home/avatar.png" alt="">
         </div>
@@ -70,9 +76,40 @@
         </div>
 
         <div class="footer">&copy; 2020 GVF</div>
-      </div>
+      </div> -->
 
       <!-- SideBar End -->
+
+      <!-- SideBar Example -->
+
+      <!-- Sidebar -->
+      <div class="s-layout__sidebar">
+        <a class="s-sidebar__trigger" href="#0">
+          <i class="fa fa-bars"></i>
+        </a>
+
+        <nav class="s-sidebar__nav">
+          <ul>
+              <li>
+                <a class="s-sidebar__nav-link" href="#0">
+                    <i class="fa fa-home"></i><em>Home</em>
+                </a>
+              </li>
+              <li>
+                <a class="s-sidebar__nav-link" href="#0">
+                  <i class="fa fa-user"></i><em>My Profile</em>
+                </a>
+              </li>
+              <li>
+                <a class="s-sidebar__nav-link" href="#0">
+                    <i class="fa fa-camera"></i><em>Camera</em>
+                </a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- SideBar Example -->
 
       <!-- Main Content -->
 
@@ -550,7 +587,9 @@
               <p class="font-weight-bold p-0 m-0">(+63) 916-712-1137</p>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-              <span class="icon-resize"><i class="fa fa-linkedin-square"></i></span>
+              <a href="https://www.linkedin.com/in/gladysforte/" target="_blank">
+                <span class="icon-resize"><i class="fa fa-linkedin-square"></i></span>
+              </a>
               <!-- <p class="font-weight-bold m-0">Linkedin</p> -->
               <p class="font-weight-bold p-0 m-0">/gladysforte</p>
             </div>
