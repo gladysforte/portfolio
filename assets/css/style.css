@@ -315,8 +315,16 @@ a {
    font-size: 1em;
 }
 
+.skills-info span {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   flex-grow: 1;
+   flex-basis: 1;
+}
+
 .svg {
-   width: 100%;
+   width: 40%;
 }
 
 .btn-primary {
@@ -362,8 +370,8 @@ ul.timeline {
    position: absolute;
    left: 16px;
    width: 2px;
-   height: 100%;
-   z-index: 400;
+   height: 80%;
+   z-index: 0;
    border-radius: 1rem;
 }
 
@@ -392,7 +400,7 @@ li.timeline-item::before {
    left: 11px;
    width: 14px;
    height: 14px;
-   z-index: 400;
+   z-index: 0;
    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -407,23 +415,39 @@ li.timeline-item::before {
 /* background-color: blue; */
 /* } */
 
+.middle {
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+.cardresize:hover .imgresize {
+   opacity: 0.3;
+   /* background: rgba(39, 42, 43, 0.8); */
+ }
+ 
+ .cardresize:hover .middle {
+   opacity: 1;
+ }
+
 .imgresize {
    width: 100%;
    height: 200px;
    position: relative;
+
+   opacity: 1;
+   display: block;
+   /* width: 100%;
+   height: auto; */
+   transition: .5s ease;
+   backface-visibility: hidden;
  }
- 
- .link {
-   position: absolute;
-   top: 43%;
-   right: 2%;
-   color: white;
-   font-size: 16px;
-   text-align: center;
-   border: none;
-   cursor: pointer;
- }
- 
+  
  .card-proj-img {
    position: relative;
    border-radius: 15px;
@@ -445,11 +469,12 @@ li.timeline-item::before {
  }
  
  .cardresize {
-   height: 400px;
+   height: 370px;
    position: relative;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    /* border-radius: 15px; */
    padding: 5px;
+   margin-bottom: 10px;
  }
  
  .languages {
@@ -459,6 +484,10 @@ li.timeline-item::before {
  
 .card-body p {
    font-size: .9em;
+}
+
+.badge-info {
+   background-color: #1b98e0;
 }
 
 /* Contact */
@@ -504,6 +533,7 @@ li.timeline-item::before {
       width: 15em;
    }
 
+   
 }
 
 @media (min-width: 68em) {
