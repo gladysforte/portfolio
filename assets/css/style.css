@@ -351,19 +351,71 @@ button a:hover {
 .skills-info {
    border: 1px solid #eaeaea;
    position: relative;
-   padding: 20px 20px 20px;
+   /* padding: 20px 20px 20px; */
    list-style: none;
 }
- 
-ul.timeline {
+
+.skills-info span.educ {
+   border-top: 2px solid #006494;
+   padding-top: 10px;
+}
+
+.skills-info p {
+   font-weight: bold;
+   font-size: 1em;
+}
+
+.skills-info .web {
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+
+/* .timeline-item h2 {
+   font-weight: bold;
+   font-size: 1em;
+}
+
+.timeline-item span.small {
+   font-style: italic;
+}
+
+.timeline-item p {
+   font-size: .9em;
+} */
+
+.thin-border {
    border: 1px solid #eaeaea;
    position: relative;
-   padding: 20px 20px 20px;
+}
+
+.thin-border span.educ {
+   border-top: 2px solid #006494;
+   padding-top: 10px;
+}
+
+ul.timeline-educ,
+ul.timeline-exp {
+   /* padding: 20px 20px 20px; */
    list-style: none;
 }
 
  /* Timeline vertical line */
- ul.timeline:before {
+ ul.timeline-educ:before {
+   content: ' ';
+   background: #eaeaea;
+   display: inline-block;
+   position: absolute;
+   left: 16px;
+   width: 2px;
+   height: 70%;
+   z-index: 0;
+   bottom: 10px;
+   border-radius: 1rem;
+}
+
+ /* Timeline vertical line */
+ ul.timeline-exp:before {
    content: ' ';
    background: #eaeaea;
    display: inline-block;
@@ -372,11 +424,25 @@ ul.timeline {
    width: 2px;
    height: 80%;
    z-index: 0;
+   /* bottom: 10px; */
    border-radius: 1rem;
 }
 
 li.timeline-item {
    margin: 15px 0;
+}
+
+.timeline-item h2 {
+   font-weight: bold;
+   font-size: 1em;
+}
+
+.timeline-item span.small {
+   font-style: italic;
+}
+
+.timeline-item p {
+   font-size: .9em;
 }
 
 /* Timeline item arrow */
@@ -403,8 +469,6 @@ li.timeline-item::before {
    z-index: 0;
    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-
-
 
 
  /* Projects */
